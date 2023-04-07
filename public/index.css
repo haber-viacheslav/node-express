@@ -1,3 +1,7 @@
+* {
+	margin: 0;
+	padding: 0;
+}
 .nav-wrapper {
 	padding: 0 2rem;
 }
@@ -24,4 +28,14 @@
 
 .course .price.big {
 	font-size: 2.5rem;
+}
+
+.card-title.course-title {
+	font-weight: 700;
+}
+
+.actions {
+	display: flex;
+	gap: 10px;
+	align-items: center;
 }
